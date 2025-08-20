@@ -19,7 +19,10 @@
                 "donjayamanne.python-extension-pack",
                 "eamodio.gitlens",
                 "ms-iot.vscode-ros"
-            ]
+            ],
+            "settings": {
+                "remote.containers.autoForwardPorts": false
+            }
         }
     },
     "containerEnv": {
