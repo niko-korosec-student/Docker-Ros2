@@ -7,5 +7,6 @@
         "/home/ws/install/my_py_pkg/lib/python3.12/site-packages",
         "/opt/ros/jazzy/lib/python3.12/site-packages"
     ],
-    "remote.autoForwardPortsFallback": 0
+    "remote.autoForwardPortsFallback": 0,
+    "ros.distro": "jazzy"
 }
