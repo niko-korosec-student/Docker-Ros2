@@ -19,12 +19,19 @@
                 "donjayamanne.python-extension-pack",
                 "eamodio.gitlens",
                 "ms-iot.vscode-ros"
-            ],
+          ],
             "settings": {
-                "remote.containers.autoForwardPorts": false
+                "remote.containers.autoForwardPorts": false,
+                "remote.autoForwardPorts": false,
+                "remote.portsAttributes": {
+                    "0-65535": {
+                        "onAutoForward": "ignore"
+                    }
+                }
             }
         }
     },
+
     "containerEnv": {
         "DISPLAY": "unix:0",
         "ROS_AUTOMATIC_DISCOVERY_RANGE": "LOCALHOST",
@@ -43,5 +50,6 @@
         "source=ros2_install_cache,target=/home/ws/install,type=volume",
         "source=ros2_log_cache,target=/home/ws/log,type=volume"
     ],
-    "postCreateCommand": "sudo rosdep update && sudo rosdep install --from-paths src --ignore-src -y && sudo chown -R $(whoami) /home/ws/"
+    "postCreateCommand": "bash -c \"grep -qxF 'source /home/ws/setup_ws.sh' /home/nico/.bashrc || echo 'source /home/ws/setup_ws.sh' >> /home/nico/.bashrc\""
+
 }

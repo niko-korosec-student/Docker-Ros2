@@ -1,0 +1,145 @@
+[0.000000] (-) TimerEvent: {}
+[0.000478] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict()}
+[0.002674] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.099114] (-) TimerEvent: {}
+[0.199535] (-) TimerEvent: {}
+[0.300273] (-) TimerEvent: {}
+[0.400811] (-) TimerEvent: {}
+[0.501449] (-) TimerEvent: {}
+[0.602169] (-) TimerEvent: {}
+[0.702776] (-) TimerEvent: {}
+[0.803357] (-) TimerEvent: {}
+[0.903887] (-) TimerEvent: {}
+[1.004229] (-) TimerEvent: {}
+[1.104557] (-) TimerEvent: {}
+[1.205142] (-) TimerEvent: {}
+[1.305675] (-) TimerEvent: {}
+[1.405997] (-) TimerEvent: {}
+[1.506386] (-) TimerEvent: {}
+[1.607001] (-) TimerEvent: {}
+[1.707554] (-) TimerEvent: {}
+[1.808165] (-) TimerEvent: {}
+[1.908397] (-) TimerEvent: {}
+[2.008783] (-) TimerEvent: {}
+[2.109060] (-) TimerEvent: {}
+[2.209457] (-) TimerEvent: {}
+[2.310108] (-) TimerEvent: {}
+[2.410475] (-) TimerEvent: {}
+[2.511027] (-) TimerEvent: {}
+[2.611435] (-) TimerEvent: {}
+[2.711820] (-) TimerEvent: {}
+[2.812195] (-) TimerEvent: {}
+[2.912783] (-) TimerEvent: {}
+[3.013286] (-) TimerEvent: {}
+[3.113527] (-) TimerEvent: {}
+[3.213890] (-) TimerEvent: {}
+[3.314544] (-) TimerEvent: {}
+[3.414915] (-) TimerEvent: {}
+[3.515644] (-) TimerEvent: {}
+[3.616117] (-) TimerEvent: {}
+[3.716537] (-) TimerEvent: {}
+[3.817144] (-) TimerEvent: {}
+[3.917694] (-) TimerEvent: {}
+[4.018097] (-) TimerEvent: {}
+[4.118703] (-) TimerEvent: {}
+[4.219227] (-) TimerEvent: {}
+[4.319612] (-) TimerEvent: {}
+[4.420234] (-) TimerEvent: {}
+[4.520788] (-) TimerEvent: {}
+[4.621435] (-) TimerEvent: {}
+[4.721997] (-) TimerEvent: {}
+[4.822390] (-) TimerEvent: {}
+[4.922974] (-) TimerEvent: {}
+[5.023611] (-) TimerEvent: {}
+[5.124298] (-) TimerEvent: {}
+[5.224910] (-) TimerEvent: {}
+[5.328223] (-) TimerEvent: {}
+[5.428802] (-) TimerEvent: {}
+[5.529390] (-) TimerEvent: {}
+[5.629959] (-) TimerEvent: {}
+[5.730480] (-) TimerEvent: {}
+[5.831093] (-) TimerEvent: {}
+[5.931666] (-) TimerEvent: {}
+[6.032162] (-) TimerEvent: {}
+[6.132699] (-) TimerEvent: {}
+[6.233271] (-) TimerEvent: {}
+[6.333857] (-) TimerEvent: {}
+[6.434574] (-) TimerEvent: {}
+[6.535085] (-) TimerEvent: {}
+[6.636126] (-) TimerEvent: {}
+[6.736748] (-) TimerEvent: {}
+[6.837373] (-) TimerEvent: {}
+[6.937983] (-) TimerEvent: {}
+[7.038706] (-) TimerEvent: {}
+[7.139358] (-) TimerEvent: {}
+[7.239839] (-) TimerEvent: {}
+[7.340159] (-) TimerEvent: {}
+[7.440681] (-) TimerEvent: {}
+[7.541115] (-) TimerEvent: {}
+[7.641708] (-) TimerEvent: {}
+[7.742296] (-) TimerEvent: {}
+[7.842884] (-) TimerEvent: {}
+[7.943162] (-) TimerEvent: {}
+[8.043572] (-) TimerEvent: {}
+[8.144196] (-) TimerEvent: {}
+[8.245504] (-) TimerEvent: {}
+[8.345796] (-) TimerEvent: {}
+[8.446231] (-) TimerEvent: {}
+[8.546828] (-) TimerEvent: {}
+[8.647418] (-) TimerEvent: {}
+[8.748018] (-) TimerEvent: {}
+[8.848622] (-) TimerEvent: {}
+[8.948890] (-) TimerEvent: {}
+[9.049209] (-) TimerEvent: {}
+[9.149808] (-) TimerEvent: {}
+[9.250372] (-) TimerEvent: {}
+[9.351377] (-) TimerEvent: {}
+[9.451949] (-) TimerEvent: {}
+[9.552581] (-) TimerEvent: {}
+[9.652899] (-) TimerEvent: {}
+[9.753334] (-) TimerEvent: {}
+[9.854408] (-) TimerEvent: {}
+[9.954886] (-) TimerEvent: {}
+[10.057171] (-) TimerEvent: {}
+[10.158852] (-) TimerEvent: {}
+[10.267068] (-) TimerEvent: {}
+[10.367599] (-) TimerEvent: {}
+[10.468228] (-) TimerEvent: {}
+[10.568599] (-) TimerEvent: {}
+[10.668996] (-) TimerEvent: {}
+[10.769614] (-) TimerEvent: {}
+[10.870163] (-) TimerEvent: {}
+[10.874967] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_py_pkg', 'build', '--build-base', '/home/ws/build/my_py_pkg/build', 'install', '--record', '/home/ws/build/my_py_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ws/src/my_py_pkg', 'env': {'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'nico-COMP', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/360a4e4fd251bfce169a4ddf857c7d25d1ad40da/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/360a4e4fd251bfce169a4ddf857c7d25d1ad40da/bin/helpers/browser.sh', 'HOME': '/home/nico', 'OLDPWD': '/', 'TERM_PROGRAM_VERSION': '1.103.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-f96ce4c5-902b-4e1b-a95c-5b3191eb05a3.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/360a4e4fd251bfce169a4ddf857c7d25d1ad40da/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/360a4e4fd251bfce169a4ddf857c7d25d1ad40da/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/nico/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-cda58cef-f56f-4622-ad4d-12de4642cb82.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/vscode/vscode-server/bin/linux-x64/360a4e4fd251bfce169a4ddf857c7d25d1ad40da/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/nico/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-cda58cef-f56f-4622-ad4d-12de4642cb82.sock","/home/nico/.gnupg/S.gpg-agent"]', 'DISPLAY': ':1', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/nico/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-68568c701aafb22e.txt', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-ea9a3a9dca.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-cda58cef-f56f-4622-ad4d-12de4642cb82.sock', 'ROS_DOMAIN_ID': '42', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ws/build/my_py_pkg', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[10.970244] (-) TimerEvent: {}
+[11.070514] (-) TimerEvent: {}
+[11.151192] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[11.167856] (my_py_pkg) StdoutLine: {'line': b'writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO\n'}
+[11.168184] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt\n'}
+[11.168491] (my_py_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt\n'}
+[11.168681] (my_py_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt\n'}
+[11.168809] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt\n'}
+[11.170612] (-) TimerEvent: {}
+[11.205922] (my_py_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[11.206795] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[11.207133] (my_py_pkg) StdoutLine: {'line': b'running build\n'}
+[11.207238] (my_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[11.207374] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/my_first_node.py -> /home/ws/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[11.207481] (my_py_pkg) StdoutLine: {'line': b'running install\n'}
+[11.214866] (my_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[11.233008] (my_py_pkg) StdoutLine: {'line': b'copying /home/ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg\n'}
+[11.233563] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-312.pyc\n'}
+[11.234191] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[11.234432] (my_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.253904] (my_py_pkg) StdoutLine: {'line': b"removing '/home/ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[11.254204] (my_py_pkg) StdoutLine: {'line': b'Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info\n'}
+[11.255290] (my_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[11.270729] (-) TimerEvent: {}
+[11.370968] (-) TimerEvent: {}
+[11.384204] (my_py_pkg) StdoutLine: {'line': b'Installing py_node script to /home/ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[11.384700] (my_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/ws/build/my_py_pkg/install.log'\n"}
+[11.421842] (my_py_pkg) CommandEnded: {'returncode': 0}
+[11.471132] (-) TimerEvent: {}
+[11.571438] (-) TimerEvent: {}
+[11.671782] (-) TimerEvent: {}
+[11.759365] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[11.762644] (-) EventReactorShutdown: {}

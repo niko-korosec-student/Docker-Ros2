@@ -1,0 +1,24 @@
+[7.886s] Invoking command in '/home/ws/src/my_py_pkg': PYTHONPATH=/home/ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/ws/build/my_py_pkg/build install --record /home/ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[8.212s] running egg_info
+[8.230s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[8.231s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[8.231s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[8.238s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[8.238s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[8.277s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[8.278s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[8.278s] running build
+[8.278s] running build_py
+[8.278s] copying my_py_pkg/my_first_node.py -> /home/ws/build/my_py_pkg/build/lib/my_py_pkg
+[8.278s] running install
+[8.286s] running install_lib
+[8.306s] copying /home/ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[8.307s] byte-compiling /home/ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-312.pyc
+[8.307s] running install_data
+[8.307s] running install_egg_info
+[8.328s] removing '/home/ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[8.328s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info
+[8.329s] running install_scripts
+[8.727s] Installing py_node script to /home/ws/install/my_py_pkg/lib/my_py_pkg
+[8.728s] writing list of installed files to '/home/ws/build/my_py_pkg/install.log'
+[8.758s] Invoked command in '/home/ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/ws/build/my_py_pkg/build install --record /home/ws/build/my_py_pkg/install.log --single-version-externally-managed install_data

@@ -15,8 +15,13 @@ RUN groupadd --gid $USER_GID $USERNAME \
     && apt-get install -y sudo \
     && echo $USERNAME ALL=\(root\) NOPASSWD:ALL > /etc/sudoers.d/$USERNAME \
     && chmod 0440 /etc/sudoers.d/$USERNAME
-RUN apt-get update && apt-get upgrade -y
-RUN apt-get install -y python3-pip
+# Base system updates + tools
+RUN apt-get update && apt-get upgrade -y \
+    && apt-get install -y \
+        python3-pip \
+        nano \            
+    && rm -rf /var/lib/apt/lists/*
+
 ENV SHELL /bin/bash
 
 # ********************************************************
@@ -31,12 +36,12 @@ RUN sudo apt-get update && sudo apt-get install -y \
     ros-jazzy-ros2cli \
     ros-jazzy-teleop-twist-keyboard \
     ros-jazzy-turtlesim \
-    ros-jazzy-slam-toolbox \
-    ros-jazzy-nav2-bringup \
+    #ros-jazzy-slam-toolbox \
+    #ros-jazzy-nav2-bringup \
  && sudo rm -rf /var/lib/apt/lists/*
 
 # Source ROS automatically in bash
-RUN echo "source /opt/ros/jazzy/setup.bash" >> /home/$USERNAME/.bashrc
+#RUN echo "source /opt/ros/jazzy/setup.bash" >> /home/$USERNAME/.bashrc
 
 # Set the default user. Omit if you want to keep the default as root.
 USER $USERNAME
