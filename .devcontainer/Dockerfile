@@ -36,6 +36,8 @@ RUN sudo apt-get update && sudo apt-get install -y \
     ros-jazzy-ros2cli \
     ros-jazzy-teleop-twist-keyboard \
     ros-jazzy-turtlesim \
+    ros-jazzy-rqt \
+    ros-jazzy-rqt-common-plugins \
     #ros-jazzy-slam-toolbox \
     #ros-jazzy-nav2-bringup \
  && sudo rm -rf /var/lib/apt/lists/*
