@@ -1,0 +1,21 @@
+[2.798s] Invoking command in '/home/ws/build/my_py_pkg': PYTHONPATH=/home/ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ws/build/my_py_pkg/build --no-deps symlink_data
+[3.165s] running develop
+[3.404s] running egg_info
+[3.422s] writing my_py_pkg.egg-info/PKG-INFO
+[3.423s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[3.424s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[3.424s] writing requirements to my_py_pkg.egg-info/requires.txt
+[3.424s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[3.461s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[3.470s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[3.490s] running build_ext
+[3.490s] Creating /home/ws/install/my_py_pkg/lib/python3.12/site-packages/my-py-pkg.egg-link (link to .)
+[3.491s] Installing number_counter script to /home/ws/install/my_py_pkg/lib/my_py_pkg
+[3.492s] Installing number_publisher script to /home/ws/install/my_py_pkg/lib/my_py_pkg
+[3.492s] Installing py_node script to /home/ws/install/my_py_pkg/lib/my_py_pkg
+[3.492s] Installing robot_news_station script to /home/ws/install/my_py_pkg/lib/my_py_pkg
+[3.492s] Installing smartphone script to /home/ws/install/my_py_pkg/lib/my_py_pkg
+[3.492s] 
+[3.492s] Installed /home/ws/build/my_py_pkg
+[3.492s] running symlink_data
+[3.528s] Invoked command in '/home/ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ws/build/my_py_pkg/build --no-deps symlink_data
