@@ -1,0 +1,22 @@
+[5.510s] Invoking command in '/home/ws/build/my_py_pkg': PYTHONPATH=/home/ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ws/build/my_py_pkg/build --no-deps symlink_data
+[5.928s] running develop
+[6.179s] running egg_info
+[6.199s] writing my_py_pkg.egg-info/PKG-INFO
+[6.199s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[6.199s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[6.225s] writing requirements to my_py_pkg.egg-info/requires.txt
+[6.225s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[6.263s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[6.295s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[6.315s] running build_ext
+[6.484s] Creating /home/ws/install/my_py_pkg/lib/python3.12/site-packages/my-py-pkg.egg-link (link to .)
+[6.485s] Installing add_two_ints script to /home/ws/install/my_py_pkg/lib/my_py_pkg
+[6.485s] Installing number_counter script to /home/ws/install/my_py_pkg/lib/my_py_pkg
+[6.486s] Installing number_publisher script to /home/ws/install/my_py_pkg/lib/my_py_pkg
+[6.486s] Installing py_node script to /home/ws/install/my_py_pkg/lib/my_py_pkg
+[6.486s] Installing robot_news_station script to /home/ws/install/my_py_pkg/lib/my_py_pkg
+[6.486s] Installing smartphone script to /home/ws/install/my_py_pkg/lib/my_py_pkg
+[6.486s] 
+[6.487s] Installed /home/ws/build/my_py_pkg
+[6.487s] running symlink_data
+[6.523s] Invoked command in '/home/ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ws/build/my_py_pkg/build --no-deps symlink_data
