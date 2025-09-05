@@ -7,6 +7,7 @@ hw_status_publisher = my_py_pkg.hardware_status_publisher:main
 led_panel = my_py_pkg.led_panel:main
 number_counter = my_py_pkg.number_counter:main
 number_publisher = my_py_pkg.number_publisher:main
+number_publisher_param = my_py_pkg.number_publisher_param:main
 py_node = my_py_pkg.my_first_node:main
 robot_news_station = my_py_pkg.robot_news_station:main
 smartphone = my_py_pkg.smartphone:main

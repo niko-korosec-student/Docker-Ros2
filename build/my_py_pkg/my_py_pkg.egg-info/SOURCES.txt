@@ -18,6 +18,7 @@ my_py_pkg/led_panel.py
 my_py_pkg/my_first_node.py
 my_py_pkg/number_counter.py
 my_py_pkg/number_publisher.py
+my_py_pkg/number_publisher_param.py
 my_py_pkg/robot_news_station.py
 my_py_pkg/smartphone.py
 my_py_pkg/template.py
