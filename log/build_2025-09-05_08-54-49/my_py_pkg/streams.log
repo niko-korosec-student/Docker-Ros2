@@ -1,0 +1,28 @@
+[3.150s] Invoking command in '/home/ws/build/my_py_pkg': PYTHONPATH=/home/ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ws/install/my_py_pkg/lib/python3.12/site-packages:/home/ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ws/build/my_py_pkg/build --no-deps symlink_data --force
+[3.489s] running develop
+[3.682s] running egg_info
+[3.699s] writing my_py_pkg.egg-info/PKG-INFO
+[3.699s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[3.699s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[3.727s] writing requirements to my_py_pkg.egg-info/requires.txt
+[3.727s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[3.764s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[3.782s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[3.800s] running build_ext
+[3.800s] Creating /home/ws/install/my_py_pkg/lib/python3.12/site-packages/my-py-pkg.egg-link (link to .)
+[3.800s] Installing add_two_ints_client_no_oop script to /home/ws/install/my_py_pkg/lib/my_py_pkg
+[3.801s] Installing add_two_ints_client_oop script to /home/ws/install/my_py_pkg/lib/my_py_pkg
+[3.801s] Installing add_two_ints_server script to /home/ws/install/my_py_pkg/lib/my_py_pkg
+[3.801s] Installing hw_status_publisher script to /home/ws/install/my_py_pkg/lib/my_py_pkg
+[3.801s] Installing led_panel script to /home/ws/install/my_py_pkg/lib/my_py_pkg
+[3.801s] Installing number_counter script to /home/ws/install/my_py_pkg/lib/my_py_pkg
+[3.802s] Installing number_publisher script to /home/ws/install/my_py_pkg/lib/my_py_pkg
+[3.802s] Installing py_node script to /home/ws/install/my_py_pkg/lib/my_py_pkg
+[3.802s] Installing robot_news_station script to /home/ws/install/my_py_pkg/lib/my_py_pkg
+[3.802s] Installing smartphone script to /home/ws/install/my_py_pkg/lib/my_py_pkg
+[3.802s] 
+[3.803s] Installed /home/ws/build/my_py_pkg
+[3.803s] running symlink_data
+[3.803s] symbolically linking /home/ws/build/my_py_pkg/resource/my_py_pkg -> /home/ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[3.803s] symbolically linking /home/ws/build/my_py_pkg/package.xml -> /home/ws/install/my_py_pkg/share/my_py_pkg
+[3.841s] Invoked command in '/home/ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ws/install/my_py_pkg/lib/python3.12/site-packages:/home/ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ws/build/my_py_pkg/build --no-deps symlink_data --force

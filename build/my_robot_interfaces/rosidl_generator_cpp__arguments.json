@@ -5,7 +5,8 @@
   "idl_tuples": [
     "/home/ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/HardwareStatus.idl",
     "/home/ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/LedStateArray.idl",
-    "/home/ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/ComputeRectangleArea.idl"
+    "/home/ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/ComputeRectangleArea.idl",
+    "/home/ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/SetLed.idl"
   ],
   "ros_interface_dependencies": [
     "service_msgs:/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
@@ -35,6 +36,7 @@
     "/home/ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/HardwareStatus.idl",
     "/home/ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/LedStateArray.idl",
     "/home/ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/srv/ComputeRectangleArea.idl",
+    "/home/ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/srv/SetLed.idl",
     "/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"
@@ -42,6 +44,7 @@
   "type_description_tuples": [
     "msg/HardwareStatus.idl:/home/ws/build/my_robot_interfaces/rosidl_generator_type_description/my_robot_interfaces/msg/HardwareStatus.json",
     "msg/LedStateArray.idl:/home/ws/build/my_robot_interfaces/rosidl_generator_type_description/my_robot_interfaces/msg/LedStateArray.json",
-    "srv/ComputeRectangleArea.idl:/home/ws/build/my_robot_interfaces/rosidl_generator_type_description/my_robot_interfaces/srv/ComputeRectangleArea.json"
+    "srv/ComputeRectangleArea.idl:/home/ws/build/my_robot_interfaces/rosidl_generator_type_description/my_robot_interfaces/srv/ComputeRectangleArea.json",
+    "srv/SetLed.idl:/home/ws/build/my_robot_interfaces/rosidl_generator_type_description/my_robot_interfaces/srv/SetLed.json"
   ]
 }

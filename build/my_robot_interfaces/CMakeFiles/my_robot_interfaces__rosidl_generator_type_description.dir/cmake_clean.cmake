@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "rosidl_generator_type_description/my_robot_interfaces/msg/HardwareStatus.json"
   "rosidl_generator_type_description/my_robot_interfaces/msg/LedStateArray.json"
   "rosidl_generator_type_description/my_robot_interfaces/srv/ComputeRectangleArea.json"
+  "rosidl_generator_type_description/my_robot_interfaces/srv/SetLed.json"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/ws/build/my_robot_interfaces/rosidl_generator_type_description/my_robot_interfaces/msg/LedStateArray.json" "/home/ws/build/my_robot_interfaces/rosidl_generator_type_description/my_robot_interfaces/msg/HardwareStatus.json"
   "/home/ws/build/my_robot_interfaces/rosidl_generator_type_description/my_robot_interfaces/srv/ComputeRectangleArea.json" "/home/ws/build/my_robot_interfaces/rosidl_generator_type_description/my_robot_interfaces/msg/HardwareStatus.json"
+  "/home/ws/build/my_robot_interfaces/rosidl_generator_type_description/my_robot_interfaces/srv/SetLed.json" "/home/ws/build/my_robot_interfaces/rosidl_generator_type_description/my_robot_interfaces/msg/HardwareStatus.json"
   )
 
 

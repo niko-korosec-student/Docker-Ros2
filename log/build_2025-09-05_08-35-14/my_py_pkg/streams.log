@@ -1,0 +1,61 @@
+[15.066s] Invoking command in '/home/ws/build/my_py_pkg': PYTHONPATH=/home/ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ws/install/my_py_pkg/lib/python3.12/site-packages:/home/ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/ws/build/my_py_pkg:/home/ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ws/build/my_py_pkg/build
+[15.397s] running develop
+[15.630s] Removing /home/ws/install/my_py_pkg/lib/python3.12/site-packages/my-py-pkg.egg-link (link to .)
+[15.669s] Invoked command in '/home/ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ws/install/my_py_pkg/lib/python3.12/site-packages:/home/ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/ws/build/my_py_pkg:/home/ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ws/build/my_py_pkg/build
+[15.670s] Invoking command in '/home/ws/src/my_py_pkg': PYTHONPATH=/home/ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ws/install/my_py_pkg/lib/python3.12/site-packages:/home/ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/ws/build/my_py_pkg:/home/ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/ws/build/my_py_pkg/build install --record /home/ws/build/my_py_pkg/install.log --single-version-externally-managed install_data --force
+[15.956s] running egg_info
+[15.975s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[15.975s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[15.976s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[16.009s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[16.009s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[16.048s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[16.077s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[16.077s] running build
+[16.077s] running build_py
+[16.078s] copying my_py_pkg/led_panel.py -> /home/ws/build/my_py_pkg/build/lib/my_py_pkg
+[16.078s] running install
+[16.085s] running install_lib
+[16.104s] creating /home/ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[16.104s] copying /home/ws/build/my_py_pkg/build/lib/my_py_pkg/hardware_status_publisher.py -> /home/ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[16.105s] copying /home/ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client_no_oop.py -> /home/ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[16.105s] copying /home/ws/build/my_py_pkg/build/lib/my_py_pkg/robot_news_station.py -> /home/ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[16.105s] copying /home/ws/build/my_py_pkg/build/lib/my_py_pkg/smartphone.py -> /home/ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[16.105s] copying /home/ws/build/my_py_pkg/build/lib/my_py_pkg/number_publisher.py -> /home/ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[16.105s] copying /home/ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client_oop.py -> /home/ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[16.105s] copying /home/ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_server.py -> /home/ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[16.105s] copying /home/ws/build/my_py_pkg/build/lib/my_py_pkg/number_counter.py -> /home/ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[16.106s] copying /home/ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[16.106s] copying /home/ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[16.106s] copying /home/ws/build/my_py_pkg/build/lib/my_py_pkg/led_panel.py -> /home/ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[16.106s] copying /home/ws/build/my_py_pkg/build/lib/my_py_pkg/template.py -> /home/ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[16.107s] byte-compiling /home/ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/hardware_status_publisher.py to hardware_status_publisher.cpython-312.pyc
+[16.107s] byte-compiling /home/ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/add_two_ints_client_no_oop.py to add_two_ints_client_no_oop.cpython-312.pyc
+[16.108s] byte-compiling /home/ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/robot_news_station.py to robot_news_station.cpython-312.pyc
+[16.108s] byte-compiling /home/ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/smartphone.py to smartphone.cpython-312.pyc
+[16.109s] byte-compiling /home/ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/number_publisher.py to number_publisher.cpython-312.pyc
+[16.109s] byte-compiling /home/ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/add_two_ints_client_oop.py to add_two_ints_client_oop.cpython-312.pyc
+[16.110s] byte-compiling /home/ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/add_two_ints_server.py to add_two_ints_server.cpython-312.pyc
+[16.110s] byte-compiling /home/ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/number_counter.py to number_counter.cpython-312.pyc
+[16.112s] byte-compiling /home/ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/__init__.py to __init__.cpython-312.pyc
+[16.112s] byte-compiling /home/ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-312.pyc
+[16.112s] byte-compiling /home/ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/led_panel.py to led_panel.cpython-312.pyc
+[16.112s] byte-compiling /home/ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/template.py to template.cpython-312.pyc
+[16.113s] running install_data
+[16.113s] copying resource/my_py_pkg -> /home/ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[16.113s] copying package.xml -> /home/ws/install/my_py_pkg/share/my_py_pkg
+[16.170s] running install_egg_info
+[16.199s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info
+[16.252s] running install_scripts
+[16.392s] Installing add_two_ints_client_no_oop script to /home/ws/install/my_py_pkg/lib/my_py_pkg
+[16.392s] Installing add_two_ints_client_oop script to /home/ws/install/my_py_pkg/lib/my_py_pkg
+[16.419s] Installing add_two_ints_server script to /home/ws/install/my_py_pkg/lib/my_py_pkg
+[16.419s] Installing hw_status_publisher script to /home/ws/install/my_py_pkg/lib/my_py_pkg
+[16.419s] Installing led_panel script to /home/ws/install/my_py_pkg/lib/my_py_pkg
+[16.419s] Installing number_counter script to /home/ws/install/my_py_pkg/lib/my_py_pkg
+[16.419s] Installing number_publisher script to /home/ws/install/my_py_pkg/lib/my_py_pkg
+[16.419s] Installing py_node script to /home/ws/install/my_py_pkg/lib/my_py_pkg
+[16.419s] Installing robot_news_station script to /home/ws/install/my_py_pkg/lib/my_py_pkg
+[16.419s] Installing smartphone script to /home/ws/install/my_py_pkg/lib/my_py_pkg
+[16.420s] writing list of installed files to '/home/ws/build/my_py_pkg/install.log'
+[16.456s] Invoked command in '/home/ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ws/install/my_py_pkg/lib/python3.12/site-packages:/home/ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/ws/build/my_py_pkg:/home/ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/ws/build/my_py_pkg/build install --record /home/ws/build/my_py_pkg/install.log --single-version-externally-managed install_data --force

@@ -1,0 +1,4 @@
+Invoking command in '/home/ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/my_py_pkg:/opt/ros/jazzy /usr/bin/cmake --build /home/ws/build/my_robot_interfaces -- -j4 -l4
+Invoked command in '/home/ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/my_py_pkg:/opt/ros/jazzy /usr/bin/cmake --build /home/ws/build/my_robot_interfaces -- -j4 -l4
+Invoking command in '/home/ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/my_py_pkg:/opt/ros/jazzy /usr/bin/cmake --install /home/ws/build/my_robot_interfaces
+Invoked command in '/home/ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ws/install/my_py_pkg:/opt/ros/jazzy /usr/bin/cmake --install /home/ws/build/my_robot_interfaces

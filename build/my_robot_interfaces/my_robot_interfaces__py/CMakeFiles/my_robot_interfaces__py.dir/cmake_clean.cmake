@@ -10,6 +10,8 @@ file(REMOVE_RECURSE
   "/home/ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/srv/__init__.py"
   "/home/ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/srv/_compute_rectangle_area.py"
   "/home/ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/srv/_compute_rectangle_area_s.c"
+  "/home/ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/srv/_set_led.py"
+  "/home/ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/srv/_set_led_s.c"
   "CMakeFiles/my_robot_interfaces__py"
 )
 

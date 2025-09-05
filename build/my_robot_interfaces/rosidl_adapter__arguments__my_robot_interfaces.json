@@ -3,6 +3,7 @@
   "non_idl_tuples": [
     "/home/ws/src/my_robot_interfaces:msg/HardwareStatus.msg",
     "/home/ws/src/my_robot_interfaces:msg/LedStateArray.msg",
-    "/home/ws/src/my_robot_interfaces:srv/ComputeRectangleArea.srv"
+    "/home/ws/src/my_robot_interfaces:srv/ComputeRectangleArea.srv",
+    "/home/ws/src/my_robot_interfaces:srv/SetLed.srv"
   ]
 }

@@ -1,0 +1,73 @@
+[0.000000] (-) TimerEvent: {}
+[0.000243] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.000331] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict({'my_robot_interfaces': '/home/ws/install/my_robot_interfaces'})}
+[0.000565] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.098243] (-) TimerEvent: {}
+[0.198737] (-) TimerEvent: {}
+[0.299157] (-) TimerEvent: {}
+[0.399409] (-) TimerEvent: {}
+[0.499663] (-) TimerEvent: {}
+[0.599949] (-) TimerEvent: {}
+[0.700233] (-) TimerEvent: {}
+[0.800712] (-) TimerEvent: {}
+[0.901117] (-) TimerEvent: {}
+[1.001840] (-) TimerEvent: {}
+[1.102497] (-) TimerEvent: {}
+[1.202969] (-) TimerEvent: {}
+[1.303322] (-) TimerEvent: {}
+[1.403969] (-) TimerEvent: {}
+[1.504547] (-) TimerEvent: {}
+[1.605116] (-) TimerEvent: {}
+[1.705811] (-) TimerEvent: {}
+[1.806540] (-) TimerEvent: {}
+[1.907204] (-) TimerEvent: {}
+[2.007772] (-) TimerEvent: {}
+[2.108215] (-) TimerEvent: {}
+[2.208779] (-) TimerEvent: {}
+[2.309351] (-) TimerEvent: {}
+[2.409743] (-) TimerEvent: {}
+[2.510411] (-) TimerEvent: {}
+[2.611116] (-) TimerEvent: {}
+[2.711383] (-) TimerEvent: {}
+[2.811703] (-) TimerEvent: {}
+[2.912352] (-) TimerEvent: {}
+[3.013005] (-) TimerEvent: {}
+[3.113513] (-) TimerEvent: {}
+[3.150126] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ws/build/my_py_pkg/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/ws/build/my_py_pkg', 'env': {'HOSTNAME': 'nico-COMP', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/6f17636121051a53c88d3e605c491d22af2ba755/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ws/install/my_robot_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/6f17636121051a53c88d3e605c491d22af2ba755/bin/helpers/browser.sh', 'HOME': '/home/nico', 'TERM_PROGRAM_VERSION': '1.103.2', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-c09a50d4-4e09-40ca-afea-6d361ae11d8c.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/6f17636121051a53c88d3e605c491d22af2ba755/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/6f17636121051a53c88d3e605c491d22af2ba755/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/nico/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'COLCON_PREFIX_PATH': '/home/ws/install', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-f0280f6f-d874-4a48-afeb-cef20a8378e5.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/vscode/vscode-server/bin/linux-x64/6f17636121051a53c88d3e605c491d22af2ba755/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/nico/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-f0280f6f-d874-4a48-afeb-cef20a8378e5.sock","/home/nico/.gnupg/S.gpg-agent"]', 'DISPLAY': ':1', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/nico/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-68568c701aafb22e.txt', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-ea9a3a9dca.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-f0280f6f-d874-4a48-afeb-cef20a8378e5.sock', 'ROS_DOMAIN_ID': '42', 'AMENT_PREFIX_PATH': '/home/ws/install/my_py_pkg:/home/ws/install/my_robot_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ws/build/my_py_pkg', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ws/install/my_py_pkg/lib/python3.12/site-packages:/home/ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ws/install/my_robot_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[3.213625] (-) TimerEvent: {}
+[3.313880] (-) TimerEvent: {}
+[3.414164] (-) TimerEvent: {}
+[3.489145] (my_py_pkg) StdoutLine: {'line': b'running develop\n'}
+[3.514273] (-) TimerEvent: {}
+[3.614524] (-) TimerEvent: {}
+[3.682037] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[3.699270] (my_py_pkg) StdoutLine: {'line': b'writing my_py_pkg.egg-info/PKG-INFO\n'}
+[3.699570] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to my_py_pkg.egg-info/dependency_links.txt\n'}
+[3.699914] (my_py_pkg) StdoutLine: {'line': b'writing entry points to my_py_pkg.egg-info/entry_points.txt\n'}
+[3.714847] (-) TimerEvent: {}
+[3.727452] (my_py_pkg) StdoutLine: {'line': b'writing requirements to my_py_pkg.egg-info/requires.txt\n'}
+[3.727650] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to my_py_pkg.egg-info/top_level.txt\n'}
+[3.764935] (my_py_pkg) StdoutLine: {'line': b"reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'\n"}
+[3.782248] (my_py_pkg) StdoutLine: {'line': b"writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'\n"}
+[3.800037] (my_py_pkg) StdoutLine: {'line': b'running build_ext\n'}
+[3.800352] (my_py_pkg) StdoutLine: {'line': b'Creating /home/ws/install/my_py_pkg/lib/python3.12/site-packages/my-py-pkg.egg-link (link to .)\n'}
+[3.800990] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_client_no_oop script to /home/ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[3.801163] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_client_oop script to /home/ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[3.801427] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_server script to /home/ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[3.801690] (my_py_pkg) StdoutLine: {'line': b'Installing hw_status_publisher script to /home/ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[3.801871] (my_py_pkg) StdoutLine: {'line': b'Installing led_panel script to /home/ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[3.801994] (my_py_pkg) StdoutLine: {'line': b'Installing number_counter script to /home/ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[3.802100] (my_py_pkg) StdoutLine: {'line': b'Installing number_publisher script to /home/ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[3.802320] (my_py_pkg) StdoutLine: {'line': b'Installing py_node script to /home/ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[3.802579] (my_py_pkg) StdoutLine: {'line': b'Installing robot_news_station script to /home/ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[3.802842] (my_py_pkg) StdoutLine: {'line': b'Installing smartphone script to /home/ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[3.802984] (my_py_pkg) StdoutLine: {'line': b'\n'}
+[3.803095] (my_py_pkg) StdoutLine: {'line': b'Installed /home/ws/build/my_py_pkg\n'}
+[3.803238] (my_py_pkg) StdoutLine: {'line': b'running symlink_data\n'}
+[3.803391] (my_py_pkg) StdoutLine: {'line': b'symbolically linking /home/ws/build/my_py_pkg/resource/my_py_pkg -> /home/ws/install/my_py_pkg/share/ament_index/resource_index/packages\n'}
+[3.803552] (my_py_pkg) StdoutLine: {'line': b'symbolically linking /home/ws/build/my_py_pkg/package.xml -> /home/ws/install/my_py_pkg/share/my_py_pkg\n'}
+[3.815009] (-) TimerEvent: {}
+[3.841421] (my_py_pkg) CommandEnded: {'returncode': 0}
+[3.915212] (-) TimerEvent: {}
+[3.983886] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[3.985650] (-) EventReactorShutdown: {}

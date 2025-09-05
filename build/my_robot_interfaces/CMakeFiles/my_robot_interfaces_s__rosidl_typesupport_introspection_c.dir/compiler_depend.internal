@@ -6,6 +6,9 @@ CMakeFiles/my_robot_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_
  /home/ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__functions.h
  /home/ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__struct.h
  /home/ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__type_support.h
+ /home/ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/led_state_array__functions.h
+ /home/ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/led_state_array__struct.h
+ /home/ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/led_state_array__type_support.h
  /home/ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/rosidl_generator_c__visibility_control.h
  /home/ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.h
  /home/ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.h
