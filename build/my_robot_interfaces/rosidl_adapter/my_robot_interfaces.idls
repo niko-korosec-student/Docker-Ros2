@@ -1,0 +1,3 @@
+/home/ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/HardwareStatus.idl
+/home/ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/LedStateArray.idl
+/home/ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/ComputeRectangleArea.idl

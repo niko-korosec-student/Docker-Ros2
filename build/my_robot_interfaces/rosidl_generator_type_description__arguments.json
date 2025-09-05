@@ -1,0 +1,13 @@
+{
+  "package_name": "my_robot_interfaces",
+  "output_dir": "/home/ws/build/my_robot_interfaces/rosidl_generator_type_description/my_robot_interfaces",
+  "idl_tuples": [
+    "/home/ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/HardwareStatus.idl",
+    "/home/ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/LedStateArray.idl",
+    "/home/ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/ComputeRectangleArea.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}
